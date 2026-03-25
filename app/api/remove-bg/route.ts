@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "edge";
 
+// API Key is injected at build time via environment variable
+const REMOVE_BG_API_KEY = process.env.REMOVE_BG_API_KEY || "";
+
 export async function POST(request: NextRequest) {
   try {
     const contentType = request.headers.get("content-type") || "";
@@ -9,13 +12,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Expected multipart/form-data" }, { status: 400 });
     }
 
-    // Cloudflare Pages Edge Runtime: env vars are available via process.env at runtime
-    // but also accessible via globalThis for Workers compatibility
-    const apiKey =
-      process.env.REMOVE_BG_API_KEY ||
-      (globalThis as unknown as Record<string, string>).REMOVE_BG_API_KEY;
-
-    if (!apiKey) {
+    if (!REMOVE_BG_API_KEY) {
       return NextResponse.json({ error: "REMOVE_BG_API_KEY not configured" }, { status: 500 });
     }
 
@@ -32,7 +29,7 @@ export async function POST(request: NextRequest) {
 
     const bgRes = await fetch("https://api.remove.bg/v1.0/removebg", {
       method: "POST",
-      headers: { "X-Api-Key": apiKey },
+      headers: { "X-Api-Key": REMOVE_BG_API_KEY },
       body: bgForm,
     });
 
