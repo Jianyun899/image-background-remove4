@@ -9,7 +9,12 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Expected multipart/form-data" }, { status: 400 });
     }
 
-    const apiKey = process.env.REMOVE_BG_API_KEY;
+    // Cloudflare Pages Edge Runtime: env vars are available via process.env at runtime
+    // but also accessible via globalThis for Workers compatibility
+    const apiKey =
+      process.env.REMOVE_BG_API_KEY ||
+      (globalThis as unknown as Record<string, string>).REMOVE_BG_API_KEY;
+
     if (!apiKey) {
       return NextResponse.json({ error: "REMOVE_BG_API_KEY not configured" }, { status: 500 });
     }
