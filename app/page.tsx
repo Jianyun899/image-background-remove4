@@ -1,12 +1,25 @@
-import BgRemover from "@/components/BgRemover";
+export const runtime = "edge";
 
-export default function Home() {
+import BgRemover from "@/components/BgRemover";
+import { auth } from "@/auth";
+import { SignInButton, SignOutButton } from "@/components/AuthButtons";
+
+export default async function Home() {
+  const session = await auth();
+
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col">
       <header className="bg-white border-b border-gray-200 px-6 py-4 flex items-center gap-2">
         <span className="text-2xl">✂️</span>
         <span className="font-bold text-lg text-gray-900">BG Remover</span>
         <span className="ml-2 text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-medium">Free</span>
+        <div className="ml-auto">
+          {session?.user ? (
+            <SignOutButton name={session.user.name ?? session.user.email ?? "User"} />
+          ) : (
+            <SignInButton />
+          )}
+        </div>
       </header>
 
       <div className="flex-1 flex flex-col items-center px-4 py-12 gap-8">
