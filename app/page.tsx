@@ -2,24 +2,37 @@ export const runtime = "edge";
 
 import BgRemover from "@/components/BgRemover";
 import { SignInButton, SignOutButton } from "@/components/AuthButtons";
+import { cookies } from "next/headers";
 
-async function getSession(req: Request) {
-  const cookie = req.headers.get("cookie") || "";
-  const sessionMatch = cookie.match(/session=([^;]+)/);
-  if (!sessionMatch) return null;
-
+async function getSession() {
   try {
-    const res = await fetch("https://imagebackgroundremoverave.shop/api/auth?action=session", {
-      headers: { Cookie: `session=${sessionMatch[1]}` },
-    });
-    return await res.json();
+    const cookieStore = await cookies();
+    const sessionCookie = cookieStore.get("session")?.value;
+    if (!sessionCookie) return null;
+
+    const AUTH_SECRET = process.env.AUTH_SECRET || "";
+    const [dataB64, sigB64] = sessionCookie.split(".");
+    if (!dataB64 || !sigB64) return null;
+
+    const data = atob(dataB64);
+    const key = await crypto.subtle.importKey(
+      "raw",
+      new TextEncoder().encode(AUTH_SECRET),
+      { name: "HMAC", hash: "SHA-256" },
+      false,
+      ["verify"]
+    );
+    const sig = Uint8Array.from(atob(sigB64), (c) => c.charCodeAt(0));
+    const valid = await crypto.subtle.verify("HMAC", key, sig, new TextEncoder().encode(data));
+    if (!valid) return null;
+    return JSON.parse(data);
   } catch {
     return null;
   }
 }
 
 export default async function Home() {
-  const session = await getSession(new Request("https://imagebackgroundremoverave.shop"));
+  const session = await getSession();
 
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col">
