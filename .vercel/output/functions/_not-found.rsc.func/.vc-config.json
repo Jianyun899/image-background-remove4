@@ -196,8 +196,10 @@
     ".next/server/chunks/586.js": ".next/server/chunks/586.js",
     ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
     ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
+    ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
     ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
     ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
+    ".next/server/app/page.js": ".next/server/app/page.js",
     ".next/server/pages/_app.js": ".next/server/pages/_app.js",
     ".next/server/pages/_error.js": ".next/server/pages/_error.js",
     ".next/server/pages/_document.js": ".next/server/pages/_document.js"
