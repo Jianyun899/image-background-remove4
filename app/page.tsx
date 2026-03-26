@@ -1,11 +1,25 @@
 export const runtime = "edge";
 
 import BgRemover from "@/components/BgRemover";
-import { auth } from "@/auth";
 import { SignInButton, SignOutButton } from "@/components/AuthButtons";
 
+async function getSession(req: Request) {
+  const cookie = req.headers.get("cookie") || "";
+  const sessionMatch = cookie.match(/session=([^;]+)/);
+  if (!sessionMatch) return null;
+
+  try {
+    const res = await fetch("https://imagebackgroundremoverave.shop/api/auth?action=session", {
+      headers: { Cookie: `session=${sessionMatch[1]}` },
+    });
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
 export default async function Home() {
-  const session = await auth();
+  const session = await getSession(new Request("https://imagebackgroundremoverave.shop"));
 
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col">
@@ -14,8 +28,8 @@ export default async function Home() {
         <span className="font-bold text-lg text-gray-900">BG Remover</span>
         <span className="ml-2 text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-medium">Free</span>
         <div className="ml-auto">
-          {session?.user ? (
-            <SignOutButton name={session.user.name ?? session.user.email ?? "User"} />
+          {session?.name ? (
+            <SignOutButton name={session.name} />
           ) : (
             <SignInButton />
           )}

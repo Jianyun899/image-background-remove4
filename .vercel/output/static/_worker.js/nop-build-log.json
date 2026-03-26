@@ -1,5 +1,5 @@
 {
-  "timestamp": 1774535439536,
+  "timestamp": 1774535716290,
   "outputDir": ".vercel/output/static/_worker.js",
   "versions": {
     "@cloudflare/next-on-pages": "1.13.16"
@@ -10,10 +10,10 @@
       "middleware": [],
       "edge": [
         {
-          "relativePath": "/api/auth/[...nextauth].func",
+          "relativePath": "/api/auth.func",
           "config": {
             "runtime": "edge",
-            "name": "api/auth/[...nextauth]",
+            "name": "api/auth",
             "deploymentTarget": "v8-worker",
             "entrypoint": "index.js",
             "assets": [],
@@ -22,7 +22,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "Y0nPbS93He6yKrVpNJ3U1",
+              "__NEXT_BUILD_ID": "vs5gOUnHvr4AvLFIaZBlJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "QweUvSPYpFJ7ecZXMJ/JyU5AR/1Z6F5f70LU31eQDTI=",
               "__NEXT_PREVIEW_MODE_ID": "008b737be7199f0e3de1fb63c87cbcdc",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5d06a77ace72e67be3775fff299050da4178ef9f19e6efd17bf07dae2bf87f6f",
@@ -30,13 +30,13 @@
             }
           },
           "route": {
-            "path": "/api/auth/[...nextauth]",
+            "path": "/api/auth",
             "overrides": [
-              "/api/auth/[...nextauth].rsc"
+              "/api/auth.rsc"
             ]
           },
-          "outputPath": "__next-on-pages-dist__/functions/api/auth/[...nextauth].func.js",
-          "outputByteSize": 30552
+          "outputPath": "__next-on-pages-dist__/functions/api/auth.func.js",
+          "outputByteSize": 32112
         },
         {
           "relativePath": "/api/remove-bg.func",
@@ -51,7 +51,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "Y0nPbS93He6yKrVpNJ3U1",
+              "__NEXT_BUILD_ID": "vs5gOUnHvr4AvLFIaZBlJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "QweUvSPYpFJ7ecZXMJ/JyU5AR/1Z6F5f70LU31eQDTI=",
               "__NEXT_PREVIEW_MODE_ID": "008b737be7199f0e3de1fb63c87cbcdc",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5d06a77ace72e67be3775fff299050da4178ef9f19e6efd17bf07dae2bf87f6f",
@@ -65,7 +65,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/remove-bg.func.js",
-          "outputByteSize": 30994
+          "outputByteSize": 30786
         },
         {
           "relativePath": "/index.func",
@@ -80,7 +80,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "Y0nPbS93He6yKrVpNJ3U1",
+              "__NEXT_BUILD_ID": "vs5gOUnHvr4AvLFIaZBlJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "QweUvSPYpFJ7ecZXMJ/JyU5AR/1Z6F5f70LU31eQDTI=",
               "__NEXT_PREVIEW_MODE_ID": "008b737be7199f0e3de1fb63c87cbcdc",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5d06a77ace72e67be3775fff299050da4178ef9f19e6efd17bf07dae2bf87f6f",
@@ -95,7 +95,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/index.func.js",
-          "outputByteSize": 582764
+          "outputByteSize": 582410
         }
       ],
       "prerendered": [
@@ -981,10 +981,10 @@
       "ignored": [
         {
           "reason": "unnecessary rsc function",
-          "relativePath": "/api/auth/[...nextauth].rsc.func",
+          "relativePath": "/api/auth.rsc.func",
           "config": {
             "runtime": "edge",
-            "name": "api/auth/[...nextauth]",
+            "name": "api/auth",
             "deploymentTarget": "v8-worker",
             "entrypoint": "index.js",
             "assets": [],
@@ -993,7 +993,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "Y0nPbS93He6yKrVpNJ3U1",
+              "__NEXT_BUILD_ID": "vs5gOUnHvr4AvLFIaZBlJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "QweUvSPYpFJ7ecZXMJ/JyU5AR/1Z6F5f70LU31eQDTI=",
               "__NEXT_PREVIEW_MODE_ID": "008b737be7199f0e3de1fb63c87cbcdc",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5d06a77ace72e67be3775fff299050da4178ef9f19e6efd17bf07dae2bf87f6f",
@@ -1001,7 +1001,7 @@
             }
           },
           "route": {
-            "path": "/api/auth/[...nextauth].rsc",
+            "path": "/api/auth.rsc",
             "overrides": []
           }
         },
@@ -1019,7 +1019,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "Y0nPbS93He6yKrVpNJ3U1",
+              "__NEXT_BUILD_ID": "vs5gOUnHvr4AvLFIaZBlJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "QweUvSPYpFJ7ecZXMJ/JyU5AR/1Z6F5f70LU31eQDTI=",
               "__NEXT_PREVIEW_MODE_ID": "008b737be7199f0e3de1fb63c87cbcdc",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5d06a77ace72e67be3775fff299050da4178ef9f19e6efd17bf07dae2bf87f6f",
@@ -1045,7 +1045,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "Y0nPbS93He6yKrVpNJ3U1",
+              "__NEXT_BUILD_ID": "vs5gOUnHvr4AvLFIaZBlJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "QweUvSPYpFJ7ecZXMJ/JyU5AR/1Z6F5f70LU31eQDTI=",
               "__NEXT_PREVIEW_MODE_ID": "008b737be7199f0e3de1fb63c87cbcdc",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "5d06a77ace72e67be3775fff299050da4178ef9f19e6efd17bf07dae2bf87f6f",
@@ -1274,16 +1274,14 @@
       "/_app.rsc.json",
       "/_document.rsc.json",
       "/_error.rsc.json",
-      "/_next/static/Y0nPbS93He6yKrVpNJ3U1/_buildManifest.js",
-      "/_next/static/Y0nPbS93He6yKrVpNJ3U1/_ssgManifest.js",
       "/_next/static/chunks/255-e3bf15caf1f1e0f9.js",
       "/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
       "/_next/static/chunks/app/_not-found/page-ce99c62c2e2a5027.js",
-      "/_next/static/chunks/app/api/auth/[...nextauth]/route-ee144b9c8629571e.js",
-      "/_next/static/chunks/app/api/remove-bg/route-ee144b9c8629571e.js",
+      "/_next/static/chunks/app/api/auth/route-985f6a447cd1b912.js",
+      "/_next/static/chunks/app/api/remove-bg/route-985f6a447cd1b912.js",
       "/_next/static/chunks/app/file-upload-test/page-ecdb05760828974b.js",
       "/_next/static/chunks/app/layout-4fdb34326be05760.js",
-      "/_next/static/chunks/app/page-055bc8906ee9d905.js",
+      "/_next/static/chunks/app/page-e2c826f93b921f44.js",
       "/_next/static/chunks/framework-de98b93a850cfc71.js",
       "/_next/static/chunks/main-app-dd04dbf538d5a5bc.js",
       "/_next/static/chunks/main-c4b3f36a491c2d1a.js",
@@ -1296,6 +1294,8 @@
       "/_next/static/media/8d697b304b401681-s.woff2",
       "/_next/static/media/ba015fad6dcf6784-s.woff2",
       "/_next/static/not-found.txt",
+      "/_next/static/vs5gOUnHvr4AvLFIaZBlJ/_buildManifest.js",
+      "/_next/static/vs5gOUnHvr4AvLFIaZBlJ/_ssgManifest.js",
       "/favicon.ico",
       "/file.svg",
       "/globe.svg",
@@ -1312,7 +1312,7 @@
           "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
           "byteLength": 178,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
@@ -1323,7 +1323,7 @@
           "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
           "byteLength": 89,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
@@ -1334,7 +1334,7 @@
           "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
           "byteLength": 269,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
@@ -1343,7 +1343,7 @@
       "webpack": {
         "19": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 147,
           "consumersList": [
@@ -1352,7 +1352,7 @@
         },
         "73": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 98069,
           "consumersList": [
@@ -1361,7 +1361,7 @@
         },
         "81": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 492,
           "consumersList": [
@@ -1369,19 +1369,18 @@
           ]
         },
         "86": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "consumers": 2,
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 16850,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
+            "/api/auth.func/index.js",
+            "/api/remove-bg.func/index.js"
           ]
         },
         "110": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 147,
           "consumersList": [
@@ -1390,18 +1389,18 @@
         },
         "182": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 24359,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "229": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 213,
           "consumersList": [
@@ -1410,7 +1409,7 @@
         },
         "275": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1829,
           "consumersList": [
@@ -1419,7 +1418,7 @@
         },
         "287": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 5330,
           "consumersList": [
@@ -1428,25 +1427,16 @@
         },
         "295": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1437,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "298": {
-          "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
-          "inlined": true,
-          "byteLength": 77733,
-          "consumersList": [
-            "/index.func/index.js"
-          ]
-        },
         "336": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 590,
           "consumersList": [
@@ -1455,7 +1445,7 @@
         },
         "356": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 4361,
           "consumersList": [
@@ -1464,7 +1454,7 @@
         },
         "360": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 180,
           "consumersList": [
@@ -1473,7 +1463,7 @@
         },
         "412": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 40,
           "consumersList": [
@@ -1482,29 +1472,29 @@
         },
         "436": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1704,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "460": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 381,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "521": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 536,
           "consumersList": [
@@ -1513,7 +1503,7 @@
         },
         "537": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1681,
           "consumersList": [
@@ -1522,7 +1512,7 @@
         },
         "580": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 509,
           "consumersList": [
@@ -1531,7 +1521,7 @@
         },
         "618": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 910,
           "consumersList": [
@@ -1540,17 +1530,17 @@
         },
         "622": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 208,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "633": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1006,
           "consumersList": [
@@ -1559,17 +1549,17 @@
         },
         "655": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 3541,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "683": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 6,
           "consumersList": [
@@ -1578,26 +1568,16 @@
         },
         "765": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 641,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "767": {
-          "consumers": 2,
-          "groupedPath": "afc357aa3975fffa4bb396c3fecbd646",
-          "newDest": "__next-on-pages-dist__/webpack/afc357aa3975fffa4bb396c3fecbd646.js",
-          "byteLength": 203,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/index.func/index.js"
-          ]
-        },
         "844": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 143,
           "consumersList": [
@@ -1606,29 +1586,29 @@
         },
         "857": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1652,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "882": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 348,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "886": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 219,
           "consumersList": [
@@ -1637,7 +1617,7 @@
         },
         "915": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 4234,
           "consumersList": [
@@ -1646,7 +1626,7 @@
         },
         "938": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 2426,
           "consumersList": [
@@ -1655,7 +1635,7 @@
         },
         "940": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 3964,
           "consumersList": [
@@ -1664,7 +1644,7 @@
         },
         "953": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 88,
           "consumersList": [
@@ -1673,7 +1653,7 @@
         },
         "1085": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 677,
           "consumersList": [
@@ -1682,29 +1662,29 @@
         },
         "1087": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 81,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1130": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 292,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1170": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 338,
           "consumersList": [
@@ -1713,7 +1693,7 @@
         },
         "1183": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1911,
           "consumersList": [
@@ -1722,7 +1702,7 @@
         },
         "1193": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 110,
           "consumersList": [
@@ -1731,7 +1711,7 @@
         },
         "1194": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1347,
           "consumersList": [
@@ -1740,18 +1720,18 @@
         },
         "1212": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1367,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1251": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 85,
           "consumersList": [
@@ -1760,7 +1740,7 @@
         },
         "1284": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 62,
           "consumersList": [
@@ -1769,7 +1749,7 @@
         },
         "1314": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 165,
           "consumersList": [
@@ -1778,18 +1758,18 @@
         },
         "1347": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 41761,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1369": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 228,
           "consumersList": [
@@ -1798,7 +1778,7 @@
         },
         "1370": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 688,
           "consumersList": [
@@ -1807,17 +1787,17 @@
         },
         "1417": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 589,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "1427": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 382,
           "consumersList": [
@@ -1826,7 +1806,7 @@
         },
         "1429": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 997,
           "consumersList": [
@@ -1835,7 +1815,7 @@
         },
         "1430": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 208,
           "consumersList": [
@@ -1844,7 +1824,7 @@
         },
         "1492": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 4015,
           "consumersList": [
@@ -1853,7 +1833,7 @@
         },
         "1518": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 6968,
           "consumersList": [
@@ -1862,7 +1842,7 @@
         },
         "1590": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 342,
           "consumersList": [
@@ -1871,7 +1851,7 @@
         },
         "1591": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 680,
           "consumersList": [
@@ -1880,51 +1860,50 @@
         },
         "1640": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 187,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1664": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 1764,
+          "consumers": 2,
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
+          "byteLength": 1729,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
+            "/api/auth.func/index.js",
+            "/api/remove-bg.func/index.js"
           ]
         },
         "1668": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 520,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1679": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1117,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "1688": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 7208,
           "consumersList": [
@@ -1933,36 +1912,28 @@
         },
         "1699": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 1284,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "1755": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 463,
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
+          "byteLength": 370,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
-        "1816": {
-          "consumers": 1,
-          "inlined": true,
-          "byteLength": 11012,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js"
-          ]
-        },
         "1952": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 436,
           "consumersList": [
@@ -1971,49 +1942,29 @@
         },
         "1983": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 214,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
-          ]
-        },
-        "1999": {
-          "consumers": 2,
-          "groupedPath": "afc357aa3975fffa4bb396c3fecbd646",
-          "newDest": "__next-on-pages-dist__/webpack/afc357aa3975fffa4bb396c3fecbd646.js",
-          "byteLength": 162099,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
             "/index.func/index.js"
           ]
         },
         "2058": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 473,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
-          ]
-        },
-        "2077": {
-          "consumers": 2,
-          "groupedPath": "afc357aa3975fffa4bb396c3fecbd646",
-          "newDest": "__next-on-pages-dist__/webpack/afc357aa3975fffa4bb396c3fecbd646.js",
-          "byteLength": 291,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
             "/index.func/index.js"
           ]
         },
         "2081": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 4828,
           "consumersList": [
@@ -2022,7 +1973,7 @@
         },
         "2097": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 219,
           "consumersList": [
@@ -2031,18 +1982,18 @@
         },
         "2175": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 417,
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
+          "byteLength": 403,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2215": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 181,
           "consumersList": [
@@ -2051,7 +2002,7 @@
         },
         "2270": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1665,
           "consumersList": [
@@ -2060,7 +2011,7 @@
         },
         "2371": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 339,
           "consumersList": [
@@ -2069,49 +2020,49 @@
         },
         "2392": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 232,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2398": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 553,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "2449": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 11053,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "2456": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 465,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2555": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 190,
           "consumersList": [
@@ -2120,29 +2071,29 @@
         },
         "2569": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 6199,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2605": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 206,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2638": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 113,
           "consumersList": [
@@ -2151,7 +2102,7 @@
         },
         "2704": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 6,
           "consumersList": [
@@ -2160,7 +2111,7 @@
         },
         "2755": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 549,
           "consumersList": [
@@ -2169,17 +2120,17 @@
         },
         "2831": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 268,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "2851": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 168,
           "consumersList": [
@@ -2188,29 +2139,29 @@
         },
         "2882": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 320,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2890": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1412,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "2924": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 287,
           "consumersList": [
@@ -2219,18 +2170,18 @@
         },
         "2993": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 324,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3005": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 150,
           "consumersList": [
@@ -2239,27 +2190,27 @@
         },
         "3103": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
-          "byteLength": 662,
+          "byteLength": 541,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
         "3114": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 4949,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3122": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 41,
           "consumersList": [
@@ -2268,29 +2219,28 @@
         },
         "3173": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1888,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3207": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "consumers": 2,
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 2104,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
+            "/api/auth.func/index.js",
+            "/api/remove-bg.func/index.js"
           ]
         },
         "3276": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 320,
           "consumersList": [
@@ -2299,7 +2249,7 @@
         },
         "3286": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 512,
           "consumersList": [
@@ -2308,7 +2258,7 @@
         },
         "3317": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 165,
           "consumersList": [
@@ -2317,40 +2267,40 @@
         },
         "3355": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 167,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3373": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 10129,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3419": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 343,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3466": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 242,
           "consumersList": [
@@ -2359,7 +2309,7 @@
         },
         "3485": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 39,
           "consumersList": [
@@ -2368,7 +2318,7 @@
         },
         "3488": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 593,
           "consumersList": [
@@ -2377,7 +2327,7 @@
         },
         "3658": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 246,
           "consumersList": [
@@ -2386,28 +2336,17 @@
         },
         "3682": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 325,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
-          ]
-        },
-        "3704": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 250,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
           ]
         },
         "3726": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 41,
           "consumersList": [
@@ -2416,7 +2355,7 @@
         },
         "3789": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 834,
           "consumersList": [
@@ -2425,37 +2364,27 @@
         },
         "3803": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 383,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "3849": {
-          "consumers": 2,
-          "groupedPath": "afc357aa3975fffa4bb396c3fecbd646",
-          "newDest": "__next-on-pages-dist__/webpack/afc357aa3975fffa4bb396c3fecbd646.js",
-          "byteLength": 375,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/index.func/index.js"
-          ]
-        },
         "3850": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 360,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3854": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 7036,
           "consumersList": [
@@ -2464,7 +2393,7 @@
         },
         "3859": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 284,
           "consumersList": [
@@ -2473,18 +2402,18 @@
         },
         "3886": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 237,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3900": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 144,
           "consumersList": [
@@ -2493,7 +2422,7 @@
         },
         "3909": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1025,
           "consumersList": [
@@ -2502,28 +2431,28 @@
         },
         "3911": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 5424,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3948": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 127,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "3950": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1794,
           "consumersList": [
@@ -2532,18 +2461,18 @@
         },
         "3951": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 190,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "3977": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 178,
           "consumersList": [
@@ -2552,29 +2481,29 @@
         },
         "4023": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 184,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4055": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1519,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4087": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 120,
           "consumersList": [
@@ -2583,18 +2512,18 @@
         },
         "4116": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 439,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4129": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 414,
           "consumersList": [
@@ -2603,39 +2532,39 @@
         },
         "4153": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 308,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4155": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 620,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4182": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 68,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "4197": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 280,
           "consumersList": [
@@ -2644,29 +2573,29 @@
         },
         "4207": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 2521,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4211": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 2537,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4228": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 387,
           "consumersList": [
@@ -2675,7 +2604,7 @@
         },
         "4271": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 461,
           "consumersList": [
@@ -2684,29 +2613,29 @@
         },
         "4289": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 160,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4291": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1037,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4293": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 308,
           "consumersList": [
@@ -2715,7 +2644,7 @@
         },
         "4318": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 487,
           "consumersList": [
@@ -2724,7 +2653,7 @@
         },
         "4393": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 616,
           "consumersList": [
@@ -2733,7 +2662,7 @@
         },
         "4429": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 389,
           "consumersList": [
@@ -2742,7 +2671,7 @@
         },
         "4452": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1886,
           "consumersList": [
@@ -2751,7 +2680,7 @@
         },
         "4463": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 24293,
           "consumersList": [
@@ -2760,7 +2689,7 @@
         },
         "4484": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1372,
           "consumersList": [
@@ -2769,7 +2698,7 @@
         },
         "4524": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 303,
           "consumersList": [
@@ -2778,7 +2707,7 @@
         },
         "4525": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 318,
           "consumersList": [
@@ -2787,7 +2716,7 @@
         },
         "4561": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1479,
           "consumersList": [
@@ -2796,7 +2725,7 @@
         },
         "4569": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 779,
           "consumersList": [
@@ -2805,40 +2734,29 @@
         },
         "4570": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 4073,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4587": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1701,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
-          ]
-        },
-        "4611": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 150,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4717": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1660,
           "consumersList": [
@@ -2847,18 +2765,18 @@
         },
         "4752": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 11232,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4753": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1244,
           "consumersList": [
@@ -2867,7 +2785,7 @@
         },
         "4806": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 429,
           "consumersList": [
@@ -2876,7 +2794,7 @@
         },
         "4854": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 87,
           "consumersList": [
@@ -2885,7 +2803,7 @@
         },
         "4892": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1303,
           "consumersList": [
@@ -2894,18 +2812,18 @@
         },
         "4946": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 203,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "4960": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 34,
           "consumersList": [
@@ -2914,18 +2832,18 @@
         },
         "5002": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 476,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5008": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 28,
           "consumersList": [
@@ -2934,7 +2852,7 @@
         },
         "5027": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 6,
           "consumersList": [
@@ -2943,18 +2861,18 @@
         },
         "5063": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 358,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5088": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 163,
           "consumersList": [
@@ -2963,7 +2881,7 @@
         },
         "5096": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 24320,
           "consumersList": [
@@ -2972,49 +2890,59 @@
         },
         "5182": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 4969,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5196": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 240,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
+        "5202": {
+          "consumers": 2,
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
+          "byteLength": 24423,
+          "consumersList": [
+            "/api/auth.func/index.js",
+            "/api/remove-bg.func/index.js"
+          ]
+        },
         "5209": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 103,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5280": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 2269,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5303": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 466,
           "consumersList": [
@@ -3023,7 +2951,7 @@
         },
         "5317": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 88,
           "consumersList": [
@@ -3032,50 +2960,50 @@
         },
         "5335": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 190,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "5354": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 779,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5356": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 90,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5408": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 4447,
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
+          "byteLength": 4344,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5428": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 3658,
           "consumersList": [
@@ -3084,18 +3012,18 @@
         },
         "5445": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 51,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5486": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 86,
           "consumersList": [
@@ -3104,18 +3032,18 @@
         },
         "5521": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 95,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5530": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 589,
           "consumersList": [
@@ -3124,70 +3052,60 @@
         },
         "5584": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 994,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5589": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 87,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "5630": {
-          "consumers": 2,
-          "groupedPath": "afc357aa3975fffa4bb396c3fecbd646",
-          "newDest": "__next-on-pages-dist__/webpack/afc357aa3975fffa4bb396c3fecbd646.js",
-          "byteLength": 168,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/index.func/index.js"
-          ]
-        },
         "5638": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 370,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5692": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 539,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5705": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 269,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5706": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 11013,
           "consumersList": [
@@ -3196,18 +3114,18 @@
         },
         "5752": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 259,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5762": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1342,
           "consumersList": [
@@ -3216,7 +3134,7 @@
         },
         "5794": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 225,
           "consumersList": [
@@ -3225,29 +3143,29 @@
         },
         "5826": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 322,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5897": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 166,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "5910": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 6807,
           "consumersList": [
@@ -3256,7 +3174,7 @@
         },
         "5937": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 591,
           "consumersList": [
@@ -3265,7 +3183,7 @@
         },
         "5976": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 4929,
           "consumersList": [
@@ -3274,7 +3192,7 @@
         },
         "6079": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 2472,
           "consumersList": [
@@ -3283,7 +3201,7 @@
         },
         "6118": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 552,
           "consumersList": [
@@ -3292,7 +3210,7 @@
         },
         "6165": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 25038,
           "consumersList": [
@@ -3301,50 +3219,50 @@
         },
         "6186": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 2419,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "6205": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 103,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "6216": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 1387,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "6225": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 103,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "6274": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 587,
           "consumersList": [
@@ -3353,7 +3271,7 @@
         },
         "6358": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 530,
           "consumersList": [
@@ -3362,7 +3280,7 @@
         },
         "6428": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 5231,
           "consumersList": [
@@ -3371,7 +3289,7 @@
         },
         "6434": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 87,
           "consumersList": [
@@ -3380,7 +3298,7 @@
         },
         "6471": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 526,
           "consumersList": [
@@ -3389,17 +3307,17 @@
         },
         "6487": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 46,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "6492": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 116,
           "consumersList": [
@@ -3408,7 +3326,7 @@
         },
         "6509": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 31,
           "consumersList": [
@@ -3417,7 +3335,7 @@
         },
         "6552": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 41,
           "consumersList": [
@@ -3426,7 +3344,7 @@
         },
         "6572": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 122,
           "consumersList": [
@@ -3435,7 +3353,7 @@
         },
         "6601": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 538,
           "consumersList": [
@@ -3444,7 +3362,7 @@
         },
         "6641": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 379,
           "consumersList": [
@@ -3453,18 +3371,18 @@
         },
         "6859": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 2745,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "6895": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 229,
           "consumersList": [
@@ -3473,7 +3391,7 @@
         },
         "6975": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 41,
           "consumersList": [
@@ -3482,7 +3400,7 @@
         },
         "7008": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 637,
           "consumersList": [
@@ -3491,7 +3409,7 @@
         },
         "7025": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 621,
           "consumersList": [
@@ -3500,7 +3418,7 @@
         },
         "7035": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 11,
           "consumersList": [
@@ -3509,7 +3427,7 @@
         },
         "7105": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 144,
           "consumersList": [
@@ -3518,7 +3436,7 @@
         },
         "7110": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 186,
           "consumersList": [
@@ -3527,7 +3445,7 @@
         },
         "7180": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 184,
           "consumersList": [
@@ -3536,29 +3454,29 @@
         },
         "7205": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 252,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7223": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 125,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7233": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 401,
           "consumersList": [
@@ -3567,7 +3485,7 @@
         },
         "7240": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 282,
           "consumersList": [
@@ -3576,61 +3494,60 @@
         },
         "7261": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 915,
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
+          "byteLength": 821,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7263": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 258,
+          "consumers": 2,
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
+          "byteLength": 245,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
+            "/api/auth.func/index.js",
+            "/api/remove-bg.func/index.js"
           ]
         },
         "7316": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 126,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7329": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 187,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "7382": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 81,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7416": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1210,
           "consumersList": [
@@ -3639,18 +3556,18 @@
         },
         "7426": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 244,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7439": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 480,
           "consumersList": [
@@ -3667,50 +3584,50 @@
         },
         "7502": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 276,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7504": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 194,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7521": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 423,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "7538": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 184,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7545": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 60,
           "consumersList": [
@@ -3719,28 +3636,28 @@
         },
         "7581": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 502,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7622": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 1926,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "7665": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 688,
           "consumersList": [
@@ -3749,28 +3666,28 @@
         },
         "7668": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 170,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7670": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 679,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "7706": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1134,
           "consumersList": [
@@ -3779,38 +3696,27 @@
         },
         "7707": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 169,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "7721": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 783,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
-        "7748": {
-          "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 764,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js",
-            "/index.func/index.js"
-          ]
-        },
         "7865": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 506,
           "consumersList": [
@@ -3819,7 +3725,7 @@
         },
         "7927": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 6159,
           "consumersList": [
@@ -3828,18 +3734,18 @@
         },
         "7953": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 4560,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "8077": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 938,
           "consumersList": [
@@ -3848,7 +3754,7 @@
         },
         "8095": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1848,
           "consumersList": [
@@ -3857,17 +3763,28 @@
         },
         "8105": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 8850,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
+          ]
+        },
+        "8109": {
+          "consumers": 3,
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
+          "byteLength": 274,
+          "consumersList": [
+            "/api/auth.func/index.js",
+            "/api/remove-bg.func/index.js",
+            "/index.func/index.js"
           ]
         },
         "8147": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1489,
           "consumersList": [
@@ -3876,7 +3793,7 @@
         },
         "8199": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 2652,
           "consumersList": [
@@ -3885,36 +3802,45 @@
         },
         "8309": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 129,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
+        "8317": {
+          "consumers": 1,
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
+          "inlined": true,
+          "byteLength": 77813,
+          "consumersList": [
+            "/index.func/index.js"
+          ]
+        },
         "8327": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 123,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "8335": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 46,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "8342": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 943,
           "consumersList": [
@@ -3923,18 +3849,18 @@
         },
         "8360": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 9935,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "8422": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 2329,
           "consumersList": [
@@ -3943,7 +3869,7 @@
         },
         "8463": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 10089,
           "consumersList": [
@@ -3952,28 +3878,28 @@
         },
         "8476": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 3588,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "8512": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 8693,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "8516": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 601,
           "consumersList": [
@@ -3982,7 +3908,7 @@
         },
         "8532": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 237,
           "consumersList": [
@@ -3991,7 +3917,7 @@
         },
         "8534": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 617,
           "consumersList": [
@@ -4000,18 +3926,18 @@
         },
         "8546": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1673,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "8550": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 167,
           "consumersList": [
@@ -4020,7 +3946,7 @@
         },
         "8558": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 608,
           "consumersList": [
@@ -4029,7 +3955,7 @@
         },
         "8564": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 294,
           "consumersList": [
@@ -4038,7 +3964,7 @@
         },
         "8592": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 285,
           "consumersList": [
@@ -4047,7 +3973,7 @@
         },
         "8601": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 96,
           "consumersList": [
@@ -4056,56 +3982,54 @@
         },
         "8619": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 81,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
-        "8662": {
-          "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
-          "byteLength": 24188,
-          "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
-            "/api/remove-bg.func/index.js"
-          ]
-        },
         "8664": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
-          "byteLength": 1321,
+          "byteLength": 1595,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
         "8665": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 85771,
           "consumersList": [
             "/index.func/index.js"
           ]
         },
+        "8673": {
+          "consumers": 1,
+          "inlined": true,
+          "byteLength": 13158,
+          "consumersList": [
+            "/api/auth.func/index.js"
+          ]
+        },
         "8749": {
           "consumers": 2,
-          "groupedPath": "39b4bd8682497d57e89316678e8239e8",
-          "newDest": "__next-on-pages-dist__/webpack/39b4bd8682497d57e89316678e8239e8.js",
+          "groupedPath": "2c1a3ff6cb20b653c024c1f5e0c63ebc",
+          "newDest": "__next-on-pages-dist__/webpack/2c1a3ff6cb20b653c024c1f5e0c63ebc.js",
           "byteLength": 2310,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js"
           ]
         },
         "8755": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 495,
           "consumersList": [
@@ -4114,7 +4038,7 @@
         },
         "8760": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 168,
           "consumersList": [
@@ -4123,7 +4047,7 @@
         },
         "8772": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 739,
           "consumersList": [
@@ -4132,7 +4056,7 @@
         },
         "8790": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 458,
           "consumersList": [
@@ -4141,18 +4065,18 @@
         },
         "8826": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 602,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "8844": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 308,
           "consumersList": [
@@ -4161,7 +4085,7 @@
         },
         "8853": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 8220,
           "consumersList": [
@@ -4170,7 +4094,7 @@
         },
         "8854": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 3500,
           "consumersList": [
@@ -4179,7 +4103,7 @@
         },
         "8903": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 212,
           "consumersList": [
@@ -4188,7 +4112,7 @@
         },
         "8936": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 562,
           "consumersList": [
@@ -4197,7 +4121,7 @@
         },
         "8938": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 154,
           "consumersList": [
@@ -4206,7 +4130,7 @@
         },
         "8947": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 945,
           "consumersList": [
@@ -4215,7 +4139,7 @@
         },
         "9027": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 167,
           "consumersList": [
@@ -4224,7 +4148,7 @@
         },
         "9056": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 252,
           "consumersList": [
@@ -4233,7 +4157,7 @@
         },
         "9095": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 195,
           "consumersList": [
@@ -4242,18 +4166,18 @@
         },
         "9194": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
-          "byteLength": 538,
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
+          "byteLength": 437,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9277": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 53,
           "consumersList": [
@@ -4262,7 +4186,7 @@
         },
         "9287": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1982,
           "consumersList": [
@@ -4271,7 +4195,7 @@
         },
         "9320": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 3005,
           "consumersList": [
@@ -4280,29 +4204,29 @@
         },
         "9414": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 3035,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9456": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 127,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9481": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 2430,
           "consumersList": [
@@ -4311,7 +4235,7 @@
         },
         "9534": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 8653,
           "consumersList": [
@@ -4320,7 +4244,7 @@
         },
         "9544": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 3287,
           "consumersList": [
@@ -4329,18 +4253,18 @@
         },
         "9565": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 1259,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9607": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 268,
           "consumersList": [
@@ -4349,18 +4273,18 @@
         },
         "9624": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 527,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9631": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 41,
           "consumersList": [
@@ -4369,18 +4293,18 @@
         },
         "9633": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 235,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9634": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 210,
           "consumersList": [
@@ -4389,18 +4313,18 @@
         },
         "9636": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 985,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9643": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 875,
           "consumersList": [
@@ -4409,7 +4333,7 @@
         },
         "9737": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1298,
           "consumersList": [
@@ -4418,18 +4342,18 @@
         },
         "9739": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 439,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9755": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1219,
           "consumersList": [
@@ -4438,7 +4362,7 @@
         },
         "9788": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 197,
           "consumersList": [
@@ -4447,18 +4371,18 @@
         },
         "9802": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 4401,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9860": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 1115,
           "consumersList": [
@@ -4467,7 +4391,7 @@
         },
         "9862": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 63,
           "consumersList": [
@@ -4476,7 +4400,7 @@
         },
         "9865": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 523,
           "consumersList": [
@@ -4485,18 +4409,18 @@
         },
         "9904": {
           "consumers": 3,
-          "groupedPath": "3de60c764eb6fa61364b511537f8521f",
-          "newDest": "__next-on-pages-dist__/webpack/3de60c764eb6fa61364b511537f8521f.js",
+          "groupedPath": "80178d4ce6db8cf31c7046b7a81d1e7e",
+          "newDest": "__next-on-pages-dist__/webpack/80178d4ce6db8cf31c7046b7a81d1e7e.js",
           "byteLength": 226,
           "consumersList": [
-            "/api/auth/[...nextauth].func/index.js",
+            "/api/auth.func/index.js",
             "/api/remove-bg.func/index.js",
             "/index.func/index.js"
           ]
         },
         "9906": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 531,
           "consumersList": [
@@ -4505,7 +4429,7 @@
         },
         "9970": {
           "consumers": 1,
-          "groupedPath": "bfa35f7cb802cfb079b9d8d5f9904002",
+          "groupedPath": "f2c4dd23db5f0aa86495309907a4bf2c",
           "inlined": true,
           "byteLength": 552,
           "consumersList": [
