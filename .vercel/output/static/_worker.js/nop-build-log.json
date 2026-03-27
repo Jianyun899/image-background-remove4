@@ -1,5 +1,5 @@
 {
-  "timestamp": 1774617362905,
+  "timestamp": 1774618335677,
   "outputDir": ".vercel/output/static/_worker.js",
   "versions": {
     "@cloudflare/next-on-pages": "1.13.16"
@@ -22,7 +22,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "2fQCveeVusTss0WekspUD",
+              "__NEXT_BUILD_ID": "oTw2lw4veOwOCFN6cKbdJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "adPB4xgqbH1sqKwzt8vA4GFK8F+3m0z3s/M9WpI/v/E=",
               "__NEXT_PREVIEW_MODE_ID": "fc8844253253a3cbc0ba06426de4d52e",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8a60e165bce560995be3294d1e8039e5a05578ed2eaf85613b23b46e58a66d5f",
@@ -36,7 +36,7 @@
             ]
           },
           "outputPath": "__next-on-pages-dist__/functions/api/auth.func.js",
-          "outputByteSize": 29167
+          "outputByteSize": 29163
         },
         {
           "relativePath": "/api/remove-bg.func",
@@ -51,7 +51,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "2fQCveeVusTss0WekspUD",
+              "__NEXT_BUILD_ID": "oTw2lw4veOwOCFN6cKbdJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "adPB4xgqbH1sqKwzt8vA4GFK8F+3m0z3s/M9WpI/v/E=",
               "__NEXT_PREVIEW_MODE_ID": "fc8844253253a3cbc0ba06426de4d52e",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8a60e165bce560995be3294d1e8039e5a05578ed2eaf85613b23b46e58a66d5f",
@@ -269,12 +269,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -493,12 +493,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -716,12 +716,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -940,12 +940,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -1163,12 +1163,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -1389,12 +1389,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -1612,12 +1612,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -1836,12 +1836,12 @@
               ".next/server/chunks/586.js": ".next/server/chunks/586.js",
               ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
               ".next/server/app/file-upload-test/page_client-reference-manifest.js": ".next/server/app/file-upload-test/page_client-reference-manifest.js",
-              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/pricing/page_client-reference-manifest.js": ".next/server/app/pricing/page_client-reference-manifest.js",
               ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
               ".next/server/app/file-upload-test/page.js": ".next/server/app/file-upload-test/page.js",
-              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/app/pricing/page.js": ".next/server/app/pricing/page.js",
               ".next/server/pages/_app.js": ".next/server/pages/_app.js",
               ".next/server/pages/_error.js": ".next/server/pages/_error.js",
               ".next/server/pages/_document.js": ".next/server/pages/_document.js"
@@ -1875,7 +1875,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "2fQCveeVusTss0WekspUD",
+              "__NEXT_BUILD_ID": "oTw2lw4veOwOCFN6cKbdJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "adPB4xgqbH1sqKwzt8vA4GFK8F+3m0z3s/M9WpI/v/E=",
               "__NEXT_PREVIEW_MODE_ID": "fc8844253253a3cbc0ba06426de4d52e",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8a60e165bce560995be3294d1e8039e5a05578ed2eaf85613b23b46e58a66d5f",
@@ -1901,7 +1901,7 @@
               "version": "15.5.2"
             },
             "environment": {
-              "__NEXT_BUILD_ID": "2fQCveeVusTss0WekspUD",
+              "__NEXT_BUILD_ID": "oTw2lw4veOwOCFN6cKbdJ",
               "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "adPB4xgqbH1sqKwzt8vA4GFK8F+3m0z3s/M9WpI/v/E=",
               "__NEXT_PREVIEW_MODE_ID": "fc8844253253a3cbc0ba06426de4d52e",
               "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8a60e165bce560995be3294d1e8039e5a05578ed2eaf85613b23b46e58a66d5f",
@@ -2130,8 +2130,6 @@
       "/_app.rsc.json",
       "/_document.rsc.json",
       "/_error.rsc.json",
-      "/_next/static/2fQCveeVusTss0WekspUD/_buildManifest.js",
-      "/_next/static/2fQCveeVusTss0WekspUD/_ssgManifest.js",
       "/_next/static/chunks/255-e3bf15caf1f1e0f9.js",
       "/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
       "/_next/static/chunks/app/_not-found/page-ce99c62c2e2a5027.js",
@@ -2153,6 +2151,8 @@
       "/_next/static/media/8d697b304b401681-s.woff2",
       "/_next/static/media/ba015fad6dcf6784-s.woff2",
       "/_next/static/not-found.txt",
+      "/_next/static/oTw2lw4veOwOCFN6cKbdJ/_buildManifest.js",
+      "/_next/static/oTw2lw4veOwOCFN6cKbdJ/_ssgManifest.js",
       "/favicon.ico",
       "/file.svg",
       "/globe.svg",
@@ -3176,7 +3176,7 @@
         "8673": {
           "consumers": 1,
           "inlined": true,
-          "byteLength": 13158,
+          "byteLength": 13160,
           "consumersList": [
             "/api/auth.func/index.js"
           ]

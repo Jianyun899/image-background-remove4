@@ -6,7 +6,9 @@ const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || "";
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET || "";
 const AUTH_SECRET = process.env.AUTH_SECRET || "";
 
-const BASE_URL = "https://imagebackgroundremoverave.shop";
+function getBaseUrl(req: NextRequest): string {
+  return `${req.nextUrl.protocol}//${req.nextUrl.host}`;
+}
 
 // Simple HMAC-based session token
 async function signToken(payload: object): Promise<string> {
@@ -46,6 +48,7 @@ async function verifyToken(token: string): Promise<object | null> {
 export async function GET(req: NextRequest) {
   const url = new URL(req.url);
   const action = url.searchParams.get("action");
+  const BASE_URL = getBaseUrl(req);
 
   // /api/auth?action=signin → redirect to Google
   if (action === "signin") {
