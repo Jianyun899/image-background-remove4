@@ -30,6 +30,7 @@ export default function UserAuth() {
 
   return (
     <div className="flex items-center gap-3">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={user.picture} alt={user.name} className="w-8 h-8 rounded-full" />
       <span className="text-sm font-medium text-gray-700">{user.name}</span>
       <a

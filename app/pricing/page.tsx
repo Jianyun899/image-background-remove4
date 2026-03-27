@@ -1,12 +1,14 @@
+import Link from "next/link";
+
 export default function PricingPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       <header className="bg-white border-b border-gray-200 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl">✂️</span>
             <span className="font-bold text-lg text-gray-900">BG Remover</span>
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -38,9 +40,9 @@ export default function PricingPage() {
                 <span className="text-sm text-gray-600">Max 5MB file size</span>
               </li>
             </ul>
-            <a href="/" className="block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 rounded-lg transition-colors">
+            <Link href="/" className="block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 rounded-lg transition-colors">
               Get Started
-            </a>
+            </Link>
           </div>
 
           {/* Pro Plan */}
